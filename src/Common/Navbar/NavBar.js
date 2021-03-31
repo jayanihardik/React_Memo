@@ -34,6 +34,9 @@ const NavBar = () => {
                 <Typography variant="h6" onClick={() => goToPage('Memo')} className={classes.title}>
                     Memo
                 </Typography>
+                <Typography variant="h6" onClick={() => goToPage('UseCallBack')} className={classes.title}>
+                    UseCallBack
+                </Typography>
             </Toolbar>
         </AppBar>
     )
